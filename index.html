@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://unpkg.com/vue"></script>
+    <script type="text/javascript" src="main.js">
+    </script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="vue">
+        <!-- Head image -->
+        <div id="head" v-bind:class="{un: degats1, deux: degats2, trois: degats3, quatre: degats4, cinq: fin }"></div>
+        <!-- Head life -->
+        <div class="barlife">
+            <div v-bind:style="{ width: vie + '%'}"></div>
+        </div>
+        <!-- Button -->
+        <div class="center">
+            <button v-on:click="punch" v-show="!fin" class="punch">Punch</button>
+            <button v-on:click="restart" class="restart">restart</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

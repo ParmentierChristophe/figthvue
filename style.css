@@ -1,0 +1,100 @@
+/* Image */
+#head {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(img/1.png) center no-repeat;
+    background-size: 60%;
+}
+
+#head.un {
+    background: url(img/2.png) center no-repeat;
+    background-size: 60%;
+}
+#head.deux {
+    background: url(img/3.png) center no-repeat;
+    background-size: 60%;
+}
+#head.trois {
+    background: url(img/4.png) center no-repeat;
+    background-size: 60%;
+}
+#head.quatre {
+    background: url(img/5.png) center no-repeat;
+    background-size: 60%;
+}
+#head.cinq {
+    background: url(img/6.png) center no-repeat;
+    background-size: 60%;
+}
+
+/* Barre de Vie */
+.barlife {
+    width: 200px;
+    border: 2px #000 solid;
+    margin: 0 auto 20px auto;
+}
+
+.barlife div {
+    height: 20px;
+    background: crimson;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, crimson, gold);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, crimson, gold);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, crimson, gold);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, crimson, gold);
+    /* Standard syntax */
+}
+
+
+/* Button */
+
+.center {
+    text-align: center;
+}
+
+.punch {
+    font-size: 2.0rem;
+    padding: 1.25rem 2.5rem;
+    background-color: #ff3860;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.punch:hover {
+    background-color: #ffffff;
+    color: #ff3860;
+    border-color: #ff3860;
+}
+
+.restart {
+    font-size: 2.0rem;
+    padding: 1.25rem 2.5rem;
+    background-color: #23d160;
+    border: 1px solid transparent;
+    color: #ffffff;
+    font-weight: 300;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.restart:hover {
+    background-color: #ffffff;
+    color: #23d160;
+    border-color: #23d160;
+
+}
