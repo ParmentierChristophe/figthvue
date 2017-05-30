@@ -34,12 +34,12 @@ window.addEventListener('load', function() {
             restart: function() {
                 this.vie = 100;
                 this.fin = false;
+                this.degats1 = false;
+                this.degats2 = false;
+                this.degats3 = false;
+                this.degats4 = false;
 
             }
         },
-        computed: {
-
-        }
-
     });
 })
